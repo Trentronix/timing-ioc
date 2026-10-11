@@ -365,7 +365,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_20</name>
-    <text>EVT Mode</text>
+    <text>Role</text>
     <x>10</x>
     <y>102</y>
     <width>93</width>
@@ -396,7 +396,7 @@
       </action>
     </actions>
     <text>Generator Config</text>
-    <x>210</x>
+    <x>334</x>
     <y>102</y>
     <width>140</width>
     <height>20</height>
@@ -791,5 +791,14 @@
       </column>
     </columns>
     <editable>false</editable>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_1</name>
+    <pv_name>$(P)FPGA:Mode:S</pv_name>
+    <x>210</x>
+    <y>102</y>
+    <width>110</width>
+    <height>20</height>
+    <labels_from_pv>true</labels_from_pv>
   </widget>
 </display>
