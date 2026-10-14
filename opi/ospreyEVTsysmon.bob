@@ -3,8 +3,8 @@
   <name>EVT Sys $(P)</name>
   <x>8</x>
   <y>88</y>
-  <width>662</width>
-  <height>673</height>
+  <width>1012</width>
+  <height>655</height>
   <background_color>
     <color name="GLOBAL canvas" red="200" green="200" blue="200">
     </color>
@@ -1443,8 +1443,8 @@ Link</text>
   </widget>
   <widget type="group" version="3.0.0">
     <name>Ext Clock</name>
-    <x>5</x>
-    <y>516</y>
+    <x>737</x>
+    <y>108</y>
     <width>270</width>
     <height>135</height>
     <style>1</style>
@@ -1515,6 +1515,79 @@ Link</text>
       <x>7</x>
       <y>30</y>
       <width>148</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Option Cards</name>
+    <x>5</x>
+    <y>515</y>
+    <width>270</width>
+    <height>135</height>
+    <style>1</style>
+    <foreground_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_64</name>
+      <pv_name>$(P)FMC:1</pv_name>
+      <x>159</x>
+      <y>5</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_65</name>
+      <pv_name>$(P)FMC:1:SN</pv_name>
+      <x>215</x>
+      <y>30</y>
+      <width>44</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_55</name>
+      <text>FMC P1 Option</text>
+      <x>7</x>
+      <y>5</y>
+      <width>148</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_56</name>
+      <text>S/N</text>
+      <x>155</x>
+      <y>30</y>
+      <width>47</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_66</name>
+      <pv_name>$(P)FMC:2</pv_name>
+      <x>159</x>
+      <y>55</y>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_57</name>
+      <text>FMC P2 Option</text>
+      <x>7</x>
+      <y>55</y>
+      <width>148</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_58</name>
+      <text>S/N</text>
+      <x>155</x>
+      <y>80</y>
+      <width>47</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_67</name>
+      <pv_name>$(P)FMC:2:SN</pv_name>
+      <x>215</x>
+      <y>80</y>
+      <width>44</width>
       <horizontal_alignment>2</horizontal_alignment>
     </widget>
   </widget>
